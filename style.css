@@ -1,0 +1,142 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+@import url('https://fonts.googleapis.com/css?family=Arapey|Cinzel|Tangerine');
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	margin: 0; 
+	padding: 0;
+	font-family: "Arapey", sans-serif;
+	background-image: url(./forest.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h3 {
+	font-weight: bold;
+	color: #2f4f4f;
+	font-size: 30px;
+}
+
+p {
+	font-size: 18px;
+}
+
+a {
+    color: #007500;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+a:hover, a:focus, a:active{
+    color: #ff4500;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+abbr {
+	color: #808000;
+	font-weight: bold;
+}
+
+#zen-intro , #zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+	float: right;
+
+}
+
+/*header*/
+header {
+	float: right;
+	height: 500px;
+	width: 100px;
+	padding: 50px 100px;
+	clear: both;
+}
+
+#zen-intro h1 {
+	font-family: "Cinzel"; 
+	writing-mode: vertical-rl;
+	font-size: 50px;
+}
+
+#zen-intro h2 {
+	font-family: "Cinzel", sans-serif; 
+	writing-mode: vertical-rl;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+
+#zen-summary , #zen-preamble {
+	width: 700px;
+	margin-right: 300px;
+}
+
+#zen-summary  p {
+	font-family: "Tangerine";
+	font-size: 25px;
+}
+
+/*main*/
+
+#zen-supporting {
+   margin-top: -180px;
+   width: 700px;
+   margin-right: 300px;
+  
+}
+
+#zen-participation {
+   width: 700px;
+}
+
+#zen-benefits {
+   width: 700px;
+
+}
+
+#zen-requirements {
+   width: 700px;
+}
+
+/*sidebar*/
+aside {
+  display: absolute;
+}
+
+.sidebar {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  margin-bottom: 50px;
+}
+
